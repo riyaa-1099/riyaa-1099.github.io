@@ -1,0 +1,135 @@
+body {
+  color: white;
+  background-image: linear-gradient(to right, #010234, #131554);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+ position: sticky;
+ top:0px;
+ transition: all 0.5s ease-out;
+ padding: 10px;
+ 
+}
+.nav-colored{
+  background-color: rgb(92, 96, 96);
+  width: 100%;
+}
+
+#nav-menu>div {
+  display: flex;
+  margin: 2px 2px;
+}
+#name {
+  color: aqua;
+}
+
+
+#nav-menu > div > a {
+  padding: 5px 11px;
+  font-size: 20px;
+  margin: 4px 10px;
+  color: white;
+  text-decoration: none;
+}
+#home:hover {
+  background-color: rgb(244, 244, 93);
+  border-radius: 5px;
+  color: #010234;
+  cursor: pointer;
+}
+
+#home1 {
+  margin: 80px 20px;
+  padding: 20px;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+#home1 > img {
+  width: 35%;
+  border-radius: 45%;
+  margin: 0% 6%;
+}
+#project:hover {
+  background-color: rgb(244, 106, 93);
+  border-radius: 5px;
+  color: #010234;
+  cursor: pointer;
+}
+
+#contact:hover {
+  background-color: rgb(156, 244, 93);
+  border-radius: 5px;
+  color: #010234;
+  cursor: pointer;
+}
+#name2 {
+  color: rgb(135, 247, 234);
+}
+#demo {
+  color: rgb(208, 203, 203);
+}
+#resume {
+  background-color: white;
+  padding: 10px 16px;
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 5px;
+}
+#resume:hover {
+  background-color: rgb(135, 247, 234);
+  border-radius: 5px;
+  color: #010234;
+  cursor: pointer;
+  padding: 11px 16px;
+}
+#con > a img {
+  width: 36px;
+  margin: 36px 8px;
+}
+#con {
+  display: flex;
+}
+#about {
+  width: 71%;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+#grid img {
+  width: 70%;
+  margin: 5%;
+  padding: 6%;
+}
+#home2 {
+  justify-content: center;
+  margin: auto;
+  background-color: #152449;
+}
+.mid {
+  font-size: xx-large;
+  color: rgb(249, 249, 249);
+  margin: 6% 42%;
+  padding: 7px;
+}
+
+@media only screen and (max-width: 650px) {
+  
+}
+
+
+@media only screen and (min-width: 650px) {
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+}
