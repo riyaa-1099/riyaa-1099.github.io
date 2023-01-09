@@ -14,7 +14,7 @@ function typeWriter() {
 
   var myNav = document.getElementById('nav-menu');
   window.onscroll = function () { 
-      if (document.body.scrollTop >= 10 || document.documentElement.scrollTop >= 10 ) {
+      if ( document.documentElement.scrollTop >= 15 ) {
           myNav.classList.add("nav-colored");
           // myNav.classList.remove("nav-transparent");
       } 
