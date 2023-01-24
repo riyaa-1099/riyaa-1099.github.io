@@ -49,7 +49,7 @@ vertical-align: middle;
 }
 
 .nav-link:hover {
-  background-color: rgb(109, 177, 177);
+  background-color: rgb(86, 157, 157);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -90,14 +90,15 @@ hr{
 #resume-button-2{
   background-color: white;
   font-weight: bolder;
+  font-size: larger;
  text-decoration: none;
   border-radius: 6px;
-  padding: 1% 2%;
+  padding: 2% 2%;
   color: #010234;
 }
 
 #resume-button-2:hover,#resume-button-1:hover {
-  background-color: rgb(109, 177, 177);
+  background-color: rgb(131, 198, 198);
   border-radius: 7px;
   color: #010234;
   cursor: pointer;
@@ -185,7 +186,7 @@ gap: 4%;
 }
 
 .project-card *:hover{
-  color:rgb(176, 247, 241)
+  color:rgb(101, 245, 233)
 }
 .project-title{
   font-size: 30px;
