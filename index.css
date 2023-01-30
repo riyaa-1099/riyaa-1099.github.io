@@ -33,6 +33,7 @@ body{
 #nav-menu > div {
   display: flex;
 vertical-align: middle;
+align-items: center;
 }
 
 .name {
@@ -58,16 +59,22 @@ vertical-align: middle;
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  height: max-content;
+  overflow: hidden;
 }
 
 #home>img{
-  width: 360px;
-  margin: 0% 10%;
-  border-radius: 100%;
+  width: 350px;
+  margin: 0% 7%;
+  border-radius: 50%;
   transition:transform .6s;
+top: 30%;
+left: 50%;
+
 }
+
 #home>img:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #user-detail-name{
@@ -75,6 +82,7 @@ vertical-align: middle;
   font-size: 50px;
   padding-left: 5%;
 }
+
 
 hr{
   width: 80%;
@@ -98,9 +106,9 @@ hr{
 }
 
 #resume-button-2:hover,#resume-button-1:hover {
-  background-color: rgb(131, 198, 198);
+  background-color: #75d9f1;
   border-radius: 7px;
-  color: #010234;
+  color: rgb(15, 15, 71);
   cursor: pointer;
 }
 
@@ -115,6 +123,7 @@ hr{
 }
 
 #about {
+ 
   width: 85%;
   font-size: larger;
   display: block;
@@ -210,6 +219,8 @@ width: 40%;
 border-radius: 3%;
 margin-left: 0%;
 }
+
+
 .projectlinks>a{
   text-decoration: none;
   color:#010234; 
@@ -336,6 +347,12 @@ display: none;
 @media only screen and (max-width: 670px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+  #user-detail-name{
+    font-size: 25px;
+  }
+  #home h1{
+    font-size: 25px;
+  }
 
 #nav-menu>div{
   display: none;
@@ -355,6 +372,12 @@ background-color: white;
 }
 
 @media only screen and (max-width: 900px) {
+  #user-detail-name{
+    font-size: 30px;
+  }
+  #home h1{
+    font-size: 30px;
+  }
   #width {
     margin: 4%;
   }
