@@ -174,6 +174,10 @@ font-size: larger;
   padding: 10px;
 }
 
+#tools{
+  margin-top: 11%;
+}
+
 #projects{
   margin: 250px 4%;
 }
