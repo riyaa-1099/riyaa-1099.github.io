@@ -138,7 +138,11 @@ hr{
  margin-top: 5%;
 }
 
-#grid {
+#skills{
+  margin-bottom: 9%;
+}
+
+.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 9% 8%;
@@ -147,22 +151,22 @@ hr{
   margin: auto;
 }
 
-#grid>div{
+.grid>div{
   vertical-align: middle;
 text-align: center;
 transition:transform .2s;
 
 }
 
-#grid>div:hover{
+.grid>div:hover{
   transform: scale(1.2);
 }
 
-#grid p{
+.grid p{
 font-size: larger; 
 }
 
-#grid img {
+.grid img {
   width: 80%;
 }
 
@@ -174,12 +178,10 @@ font-size: larger;
   padding: 10px;
 }
 
-#tools{
-  margin-top: 11%;
-}
+
 
 #projects{
-  margin: 250px 4%;
+  margin: 220px 4%;
 }
 
 #projects>div{
@@ -337,9 +339,7 @@ display: none;
 }
 
 #main {
- 
   padding: 10px;
-
   position: sticky;
   top: 0px;
   transition: all 0.5s ease-out;
@@ -425,7 +425,7 @@ background-color: white;
   margin-left: 13%;
   margin-bottom: 3%;
 }
-#grid {
+.grid {
 
   grid-template-columns: repeat(3, 1fr);
 }
