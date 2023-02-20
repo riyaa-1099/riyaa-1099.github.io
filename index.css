@@ -431,10 +431,11 @@ background-color: white;
   grid-template-columns: repeat(3, 1fr);
 }
 #tools{
-  margin-top: 29%;
+  margin-top: 35%;
 }
 #projects{
-  margin: 140px 4%;
+  margin-top: 25%;
+  margin-bottom: 40%;
 }
 }
 
