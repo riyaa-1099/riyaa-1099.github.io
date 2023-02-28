@@ -156,7 +156,7 @@ hr{
   vertical-align: middle;
 text-align: center;
 transition:transform .2s;
-
+min-width: 80px;
 }
 
 .grid>div:hover{
@@ -374,6 +374,16 @@ background-color: white;
   display: block;
   right:0;
 }
+.grid>div{
+  margin: 3px;
+}
+#skills{
+ padding-bottom: 50px;
+}
+#projects{
+  padding-bottom: 50px;
+ }
+
 }
 
 @media only screen and (max-width: 900px) {
