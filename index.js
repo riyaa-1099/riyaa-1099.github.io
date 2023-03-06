@@ -43,13 +43,13 @@ GitHubCalendar(".calendar", "riyaa-1099", {
 
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1WLM-AkTMrjgt73ltTW3KcF3g7aGq0lIg/view?usp=share_link"
+    "https://drive.google.com/file/d/1xaj8SXCjdDcAZz4C8w9hMxvYuH5Rxlcb/view?usp=share_link"
   );
 };
 
 document.getElementById("resume-button-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1WLM-AkTMrjgt73ltTW3KcF3g7aGq0lIg/view?usp=share_link"
+    "https://drive.google.com/file/d/1xaj8SXCjdDcAZz4C8w9hMxvYuH5Rxlcb/view?usp=share_link"
   );
 };
 
